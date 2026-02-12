@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Java Programming Masterclass (Java 17/21)",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/java-the-complete-java-developer-course/",
+    "description": "Comprehensive guide to Core Java, Multithreading, and OOP principles. Updated for Java 17/21."
+  },
+  {
+    "title": "Java Multithreading, Concurrency & Performance Optimization",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/java-multithreading-concurrency-performance-optimization/",
+    "description": "Deep dive into Multithreading, Memory Management, and low-level Java concurrency for system scale."
+  },
+  {
+    "title": "JSP, Servlets and JDBC for Beginners: Build a Database App",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/jsp-servlets-jdbc-for-beginners/",
+    "description": "Covers JSP 2.3 and Servlets 3.1. Learn to build web applications with MVC architecture and database connectivity."
+  },
+  {
+    "title": "Java EE: Servlets and JavaServer Pages (JSP)",
+    "provider": "LinkedIn Learning",
+    "url": "https://www.classcentral.com/subject/servlets",
+    "description": "A focused course on the fundamentals of Java web application concepts, handling requests, and server-side logic."
+  },
+  {
+    "title": "SOAP Web Services with JAX-WS",
+    "provider": "Coursera",
+    "url": "https://www.coursera.org/learn/soap-web-services-jax-ws",
+    "description": "Learn JAX-WS, SOAP, and XML standards. Essential for legacy enterprise system integration (EJB context)."
+  },
+  {
+    "title": "RESTful Web Services with JAX-RS",
+    "provider": "Coursera",
+    "url": "https://www.coursera.org/learn/restful-web-services-jax-rs",
+    "description": "Master REST API design, JSON representations, and JAX-RS implementation for modern microservices."
+  },
+  {
+    "title": "The Complete Oracle SQL Certification Course",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/the-complete-oracle-sql-certification-course/",
+    "description": "Master Oracle SQL from scratch. Covers complex queries, database design, and performance tuning."
+  },
+  {
+    "title": "PostgreSQL for Everybody Specialization",
+    "provider": "Coursera",
+    "url": "https://www.coursera.org/specializations/postgresql-for-everybody",
+    "description": "Comprehensive SQL and Database Design course focusing on PostgreSQL, data modeling, and performance."
+  },
+  {
+    "title": "System Design Masterclass (2026 Edition)",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/system-design-masterclass/",
+    "description": "Architecting scalable systems. Covers load balancing, caching, sharding, and HLD/LLD patterns."
+  },
+  {
+    "title": "Mastering the System Design Interview",
+    "provider": "Educative.io",
+    "url": "https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers",
+    "description": "Focuses on LLD (Low-Level Design) and HLD (High-Level Design) through real-world FAANG architectural problems."
+  },
+  {
+    "title": "Spring Boot 3, Spring 6 & Hibernate for Beginners",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/spring-hibernate-tutorial/",
+    "description": "The gold standard for Spring Boot 3. Covers Security, JPA, Microservices, and REST APIs."
+  },
+  {
+    "title": "Building Scalable Java Microservices with Spring Cloud",
+    "provider": "Google Cloud",
+    "url": "https://www.coursera.org/learn/google-cloud-java-microservices",
+    "description": "Advanced microservices patterns: service discovery, config management, and API Gateways."
+  },
+  {
+    "title": "Apache Kafka Series - Learn Apache Kafka for Beginners",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/apache-kafka/",
+    "description": "Master Kafka architecture, producers, consumers, and ecosystem components for event-driven systems."
+  },
+  {
+    "title": "RabbitMQ : Messaging with Java, Spring Boot And Spring MVC",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/rabbitmq-java-spring-boot-spring-mvc/",
+    "description": "In-depth guide to RabbitMQ exchanges, queues, and asynchronous messaging in Java ecosystems."
+  },
+  {
+    "title": "Redis Bootcamp for Beginners: Get Hands On with Redis",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/redis-bootcamp-for-beginners/",
+    "description": "Learn Redis data structures, caching strategies, and integration with Spring Data Redis."
+  }
+]

@@ -1,0 +1,57 @@
+spring:
+  application:
+    name: Hackathon-project
+  ai:
+    # THE ROUTING MAGIC
+    model:
+      chat: openai
+      embedding: ollama
+
+    # CHAT: Groq configuration
+    openai:
+      api-key: ${groq_api_key}
+      base-url: https://api.groq.com/openai
+      chat:
+        options:
+          model: llama-3.1-8b-instant
+
+    # EMBEDDING: Local Ollama configuration
+    ollama:
+      base-url: http://localhost:11434
+      embedding:
+        options:
+          model: nomic-embed-text # High quality, low memory (768 dimensions)
+
+    vectorstore:
+      pgvector:
+        initialize-schema: true
+        dimensions: 768 # nomic-embed-text is 768
+        distance-type: COSINE_DISTANCE
+    chat:
+      memory:
+        repository:
+          jdbc:
+            initialize-schema: always
+            table-name: chat_memory
+
+  datasource:
+    url: ${AIVEN_URL_USERNAME_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      data-source-properties:
+        sslfactory: org.postgresql.ssl.NonValidatingFactory
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+logging:
+  level:
+    org.springframework.ai:
+      chat.client: DEBUG
+server:
+  port: 9096
